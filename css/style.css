@@ -1,1 +1,47 @@
 /* create a wonderful CSS HERE  */
+
+* {
+    padding: 30px;
+    margin: 20px;
+    background-color: turquoise;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    margin: 20px;
+}
+
+nav ul li {
+    display: inline;
+    padding: 50px;
+    float: right;
+    margin-right: 350px;
+}
+
+nav ul li a {
+    font-size: 30px;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.card {
+    margin-top: 100px;
+}
+
+ol li {
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+footer p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    margin-top: 150px;
+    text-align: center;
+    background-color: black;
+    color: cornsilk;
+}

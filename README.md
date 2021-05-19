@@ -1,1 +1,8 @@
-# amman-201d25-lab14
+
+Shehadeh, Mayyadah 
+E'layan, Sultan 
+Nofal, Ahmad 
+Diab, Salim 
+Ateyyat, Mohannad 
+Taha, Sara 
+Riziq, Mohammad 

@@ -9,7 +9,7 @@ let Cart = function(items) {
 Cart.prototype.addItem = function(product, quantity) {
     // TODO: Fill in this instance method to create a new CartItem and add it to this.items
     this.items.push(new CartItem(product, quantity));
-    console.log('array', this.items);
+    //console.log('array', this.items);
 };
 
 Cart.prototype.saveToLocalStorage = function() {
@@ -20,6 +20,7 @@ Cart.prototype.saveToLocalStorage = function() {
 Cart.prototype.removeItem = function(item) {
     // TODO: Fill in this instance method to remove one item from the cart.
     // Note: You will have to decide what kind of parameter to pass in here!
+    // localStorage.removeItem('cart');
 };
 
 let CartItem = function(product, quantity) {
@@ -34,6 +35,8 @@ let Product = function(filePath, name) {
     Product.allProducts.push(this);
 };
 Product.allProducts = [];
+
+
 
 function generateCatalog() {
     new Product('assets/bag.jpg', 'Bag');
@@ -60,3 +63,6 @@ function generateCatalog() {
 
 // Initialize the app by creating the big list of products with images and names
 generateCatalog();
+
+console.log('product', Product.allProducts);
+console.log('cart items', Cart.items);
